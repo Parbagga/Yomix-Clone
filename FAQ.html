@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Frequently Asked Question — YoMix.IO</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="content-language" content="en" />
+
+    <link
+      rel="icon"
+      href="/favicon.ico?id=c4b7aa1526876284bff2da421e40bf1c"
+      sizes="any"
+    />
+    <link
+      rel="icon"
+      href="/favicon.svg?id=25bc602fb5a341af91a543aee041d627"
+      type="image/svg+xml"
+    />
+    <link
+      href="/favicon.ico?id=c4b7aa1526876284bff2da421e40bf1c"
+      rel="shortcut icon"
+    />
+    <link
+      href="/css/app.css?id=0d62bda7dbfbb035cc011bc439c59fdb"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script
+      type="application/javascript"
+      src="/js/app.js?id=2cc8994a9297327d9c40794492a60620"
+    ></script>
+  </head>
+
+  <body class="d-flex flex-column h-100 min-vh-100">
+    <div id="app" class="flex-shrink-0">
+      <div class="navigation fixed-top">
+        <nav id="navBar" class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="https://yomix.io/svg/logo.svg"
+                alt="YoMix.IO"
+                height="30"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/mixer.html"
+                    >Mixer</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="FAQ.html"
+                    >FAQ</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="Blog.html"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="partner.html"
+                    >Partner</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle language-link"
+                    id="languageDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    href="#"
+                  >
+                    <img src="https://yomix.io/svg/language/gb.svg" alt="en" />
+                    <span>English</span>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <a href="#" class="dropdown-item language-link">
+                      <img
+                        src="https://yomix.io/svg/language/gb.svg"
+                        alt="English"
+                      />
+                      <span>English</span>
+                    </a>
+                    <a href="#" class="dropdown-item language-link">
+                      <img
+                        src="https://yomix.io/svg/language/jp.svg"
+                        alt="Japanese"
+                      />
+                      <span>日本語</span>
+                    </a>
+                    <a href="#" class="dropdown-item language-link">
+                      <img
+                        src="https://yomix.io/svg/language/de.svg"
+                        alt="German"
+                      />
+                      <span>Deutsch</span>
+                    </a>
+                    <a href="#" class="dropdown-item language-link">
+                      <img
+                        src="https://yomix.io/svg/language/ru.svg"
+                        alt="Russian"
+                      />
+                      <span>Русский</span>
+                    </a>
+                    <a href="#" class="dropdown-item language-link">
+                      <img
+                        src="https://yomix.io/svg/language/cn.svg"
+                        alt="Chinese (Simplified)"
+                      />
+                      <span>简体中文</span>
+                    </a>
+                    <a href="#" class="dropdown-item language-link">
+                      <img
+                        src="https://yomix.io/svg/language/es.svg"
+                        alt="Spanish"
+                      />
+                      <span>Español</span>
+                    </a>
+                    <a href="#" class="dropdown-item language-link">
+                      <img
+                        src="https://yomix.io/svg/language/fr.svg"
+                        alt="French"
+                      />
+                      <span>Français</span>
+                    </a>
+                    <a href="#" class="dropdown-item language-link">
+                      <img
+                        src="https://yomix.io/svg/language/it.svg"
+                        alt="Italian"
+                      />
+                      <span>Italiano</span>
+                    </a>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="switchColorMode"
+                    aria-label="Change color mode"
+                  >
+                    <i id="colorModeIcon" class="fa fa-solid"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <section class="second alert-end">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2 col-12">
+              <div class="heading text-center">
+                <h4>Frequently Asked Question</h4>
+                <p>
+                  If you didn't find the answer on your question, you can ask us
+                  by filling
+                  <a href="ContactUs.html">the form</a>.
+                </p>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="accordion row">
+                <div class="col-12 col-md-6">
+                  <div class="row">
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion"
+                          >
+                            What is YoMix.IO?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            YoMix.IO &mdash; is an innovative
+                            <a href="mixer.html">Bitcoin Mixer</a>, with a main
+                            purpose of providing security and anonymity to its
+                            users. YoMix.IO is able to terminate the connection
+                            between your old and new Bitcoin addresses and
+                            provide a full anonymity and protection from
+                            cybercriminals, who track and monitor your
+                            cryptocurrency every day.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion1">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion1"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion1"
+                          >
+                            What is Bitcoin Mixer (Bitcoin Mixer)?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion1"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion1"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            Bitcoin Mixer &mdash; is a set of tools or service
+                            that provides anonymity to the very first
+                            cryptocurrency - Bitcoin. Bitcoin Mixer terminates
+                            the connection between addresses inside the
+                            blockchain, while making it impossible to carry out
+                            any analysis or identification of the owner. There
+                            are many technologies that are referred to as
+                            Bitcoin Mixers. We have developed our own method of
+                            attaining anonymity of Bitcoin transactions by
+                            consulting with ex-staff of analytical companies,
+                            who have disclosed all their secrets to us.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion2">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion2"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion2"
+                          >
+                            Is Bitcoin anonymous?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion2"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion2"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            No, Bitcoin is not anonymous and has never been.
+                            Bitcoin is a classical blockchain, which represents
+                            a public ledger. Think over these words – public
+                            ledger. Anyone can view it and track any funds
+                            transactions. Once your address is spotted on the
+                            internet or anywhere else, then criminal is able to
+                            completely track all funds transactions within your
+                            wallet, which will eventually lead him to the
+                            exchange, or any service that you paid for, or
+                            anywhere else where your identity was identified. It
+                            is quite easy to find the owner of Bitcoin address.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion3">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion3"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion3"
+                          >
+                            Why should I mix my coins?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion3"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion3"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            There may be various reasons for mixing, including
+                            provision of anonymity to your journalistic source,
+                            banal hiding of your financial activities from
+                            strangers, etc. Anonymity – is a right of every
+                            person and it is never superfluous.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion4">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion4"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion4"
+                          >
+                            What is the maximum number of coins I can mix?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion4"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion4"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            You can mix any number of coins, since we do not
+                            limit the maximum number. Our system automatically
+                            adjusts itself to the necessary volume and
+                            guarantees to send back to you the mixed coins
+                            within 48 hours (as long as you didn’t specify the
+                            delay of more than 48 hours).
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion5">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion5"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion5"
+                          >
+                            What is the minimum number of coins I can mix?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion5"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion5"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            Currently, you can mix minimum &mdash; 0.001 BTC and
+                            plus 0.0000175 BTC for every destination address.
+                            <br />
+                            In total, for each destination address there are
+                            0.0010175 BTC.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion6">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion6"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion6"
+                          >
+                            What if I go below the minimum number?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion6"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion6"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            In case if you send less Bitcoins than the minimum
+                            limit, no mixing will occur.<br />You will be able
+                            to return your coins back after deduction of
+                            transactional commissions to miners by writing to us
+                            via <a href="ContactUs.html">feedback form</a>.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion7">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion7"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion7"
+                          >
+                            What address formats do you support?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion7"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion7"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            Currently we support all possible formats: Legacy,
+                            SegWit, P2SH, Native SegWit.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion8">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion8"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion8"
+                          >
+                            Is cryptocurrencies mixing legal?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion8"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion8"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            In overall, mixing of cryptocurrencies is legal, but
+                            at the same time it depends on the specific country
+                            and its legislation. In some countries the mixing of
+                            cryptocurrencies is allowed, whereas some laws
+                            prohibit mixing of large amounts. <br />We request
+                            you to familiarize yourself with the legislation of
+                            your country in relation with cryptocurrencies
+                            mixing, and also to check out our
+                            <a href="TermsOfUse.html">user agreement</a>
+                            prior to placing your order for mixing.
+                            <br />Utilization of our service and responsibility
+                            for its usage is solely on you, hence we recommend
+                            you to be careful with regards to this matter.
+                            <br />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="row">
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion-2">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion-2"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion-2"
+                          >
+                            What mixing code is?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion-2"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion-2"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            After first mixing at YoMix.IO you will receive a
+                            unique code. With help of this code, we guarantee
+                            that you will never receive your own coins from
+                            previous transactions. Simply use this code for all
+                            your future mixing orders.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion1-2">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion1-2"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion1-2"
+                          >
+                            How much time does Bitcoin mixing process take?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion1-2"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion1-2"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            You can select the delay up to 72 hours, and also
+                            specify an instant sending of mixed funds. We
+                            guarantee that any amount will be mixed within 48
+                            hours (for large amounts), but usually coins get
+                            sent right after the delay period specified by you
+                            or instantly, in case if you did not specify the
+                            delay.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion2-2">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion2-2"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion2-2"
+                          >
+                            What is the difference between Bitcoin mixer,
+                            Bitcoin tumbler and Bitcoin laundry?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion2-2"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion2-2"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            There is no difference, they are synonyms.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion3-2">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion3-2"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion3-2"
+                          >
+                            Do you have mirrors in TOR network?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion3-2"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion3-2"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            Of course, there is a mirror in the TOR network, and
+                            the address is: <br /><a href="#"
+                              >http://yomixio76f7bnurcrqrhoud5moeu4bvlgukkylixgh2teqllg3mjrqyd.onion</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion4-2">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion4-2"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion4-2"
+                          >
+                            What Letter Of Guarantee is?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion4-2"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion4-2"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            Letter Of Guarantee is a confirmation of our
+                            obligations. With help of it you can always prove
+                            the fact that you made and exchange with us. In
+                            addition, the Letter Of Guarantee is used to contact
+                            us with regards to orders, which were already
+                            deleted, since we do not store this data.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion5-2">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion5-2"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion5-2"
+                          >
+                            What data do you store?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion5-2"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion5-2"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            We store only necessary technical information during
+                            the effect period of your order. Once the order is
+                            deleted, we won’t have any other data related to
+                            your order.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion6-2">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion6-2"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion6-2"
+                          >
+                            Can I send several transactions to the address
+                            specified in the order?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion6-2"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion6-2"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            You can even send 100 transactions to the address
+                            specified in the order. They all will be mixed and
+                            sent to your clean address.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion7-2">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion7-2"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion7-2"
+                          >
+                            I have got problems with my order. What should I do?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion7-2"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion7-2"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            Most importantly – do not panic, all problems can be
+                            resolved. Please, contact us via
+                            <a href="ContactUs.html">feedback form</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item col-12">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingquestion8-2">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapsequestion8-2"
+                            aria-expanded="false"
+                            aria-controls="collapsequestion8-2"
+                          >
+                            How can I check the Warranty Policy?
+                          </button>
+                        </h2>
+                        <div
+                          id="collapsequestion8-2"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="headingquestion8-2"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            Most of wallets allow to check the signed messages.
+                            For example, in order to access Electrum, please
+                            press "Tools->Encrypt/Decrypt Message"
+                            (Tools->Encryption/Message encryption). Key in your
+                            message and signature from the warranty statement.
+                            We use this address for signing all the messages:
+                            "1YoMixKuHMxwm4JTpjc5kaEesSg9Pk8ZR ".<br /><br />You
+                            can also use the following page:<br />
+                            <a href="#" rel="nofollow" target="_blank"
+                              >https://www.bitcoin.com/tools/verify-message/</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="alert-message shadow-lg p-5 mt-lg-5">
+                <div class="row align-items-center justify-content-between">
+                  <div class="col-12 col-lg-7">
+                    <h5>Ready to mix your coins?</h5>
+                    <p>
+                      It will take only a few minutes to upgrade your privacy
+                    </p>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <div class="text-lg-end">
+                      <a
+                        href="mixer.html"
+                        class="btn btn-primary btn-lg btn-information"
+                        >Start Mixing</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="py-4 mt-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div>
+              <b>Onion mirror</b>
+              <div>
+                <i class="fa-solid fa-link"></i>
+                <a href="#"
+                  >http://yomixio76f7bnurcrqrhoud5moeu4bvlgukkylixgh2teqllg3mjrqyd.onion</a
+                >
+              </div>
+            </div>
+            <div class="margin-top-10">
+              <div class="row">
+                <div class="col-12 col-md-4">
+                  <b>Clearnet mirror</b>
+                  <div>
+                    <i class="fa-solid fa-link"></i>
+                    <a href="index.html">https://yomix.io</a>
+                  </div>
+                </div>
+                <div class="col-12 col-md-8">
+                  <b>Our signing address</b>
+                  <div>1YoMixKuHMxwm4JTpjc5kaEesSg9Pk8ZR</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12 offset-md-5 col-md-3">
+                <ul class="menu">
+                  <li>
+                    <a href="mixer.html">Mixer</a>
+                  </li>
+                  <li><a href="FAQ.html">FAQ</a></li>
+                  <li><a href="partner.html">Partner</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-4">
+                <ul class="menu">
+                  <li>
+                    <a href="TermsOfUse.html">Terms of Use</a>
+                  </li>
+                  <li><a href="ContactUs.html">Contact Us</a></li>
+                  <li>
+                    <a href="Restore.html">Restore Order</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <hr />
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-12 text-center">
+              &copy 2022 - 2024 <a href="index.html">YoMix.IO</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
