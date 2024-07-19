@@ -188,11 +188,790 @@
               <h5>Mix your coins</h5>
             </div>
           </div>
+          <!-- /////////////////////// -->
 
-          <Mixer
-            :config='{"code":"","network":"mainnet","delay":{"min":0,"max":72},"output":{"max":5,"min_distribution":8},"fee":{"min":0.7,"max":5,"multitransaction_fee":1}}'
-            csrf="FnGIBN6ZIYqantqzkjZy0ZtNkgzOw9pu0xg4aD54"
-          />
+          <!-- ////////////////////// -->
+          <div class="row">
+            <div class="col-md-6 offset-md-3 col-12">
+              <div class="box-light box-mixer">
+                <form>
+                  <div class="row">
+                    <div class="col-12"><!----></div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-12 col-md-6">
+                      <div>
+                        <label for="code" class="form-label"
+                          >Mixing code
+                          <div
+                            class="inline-block"
+                            data-v-5784ed69=""
+                            style="
+                              border: 12px solid transparent;
+                              margin: -12px;
+                              --c81fc0a4: 9999;
+                            "
+                          >
+                            <div data-v-5784ed69="">
+                              <button
+                                class="helper"
+                                type="button"
+                                data-v-5784ed69-s=""
+                              >
+                                <i
+                                  class="fa fa-question-circle"
+                                  data-v-5784ed69-s=""
+                                ></i>
+                              </button>
+                            </div>
+                            <div
+                              class="popper"
+                              data-v-5784ed69=""
+                              style="display: none"
+                            >
+                              After first mixing you will receive the mixing
+                              code, save it and use to avoid getting your own
+                              coins from previous mixings.<!---->
+                            </div>
+                          </div></label
+                        ><input type="text" class="form-control" id="code" />
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-6">
+                      <div class="position-relative">
+                        <div>
+                          <div class="gauge">
+                            <div class="inner">
+                              <a
+                                class="btn inner-icon-button text shake-5s"
+                                href="#"
+                                >BOOST</a
+                              >
+                            </div>
+                            <div class="outside">
+                              <div
+                                class="inline-block"
+                                data-v-5784ed69=""
+                                style="
+                                  border: 12px solid transparent;
+                                  margin: -12px;
+                                  --c81fc0a4: 9999;
+                                "
+                              >
+                                <div data-v-5784ed69="">
+                                  <img
+                                    src="/svg/smile_medium.svg"
+                                    width="28"
+                                    alt="Normal"
+                                    data-v-5784ed69-s=""
+                                  />
+                                </div>
+                                <div
+                                  class="popper fade-enter-to"
+                                  data-v-5784ed69=""
+                                  style="
+                                    position: absolute;
+                                    inset: 0px auto auto 0px;
+                                    margin: 0px;
+                                    transform: translate3d(-150px, 50px, 0px);
+                                    display: none;
+                                  "
+                                  data-popper-placement="bottom"
+                                >
+                                  <div
+                                    class="strength_inner"
+                                    data-v-5784ed69-s=""
+                                    style="min-width: 300px"
+                                  >
+                                    <div data-v-5784ed69-s="">
+                                      Your mixing level is
+                                      <strong>Normal</strong>. We recommend to
+                                      follow next steps to boost your mixing
+                                      strength:
+                                    </div>
+                                    <ul
+                                      class="checkList mt-2"
+                                      data-v-5784ed69-s=""
+                                    >
+                                      <li class="">
+                                        Use two or more destination addresses
+                                      </li>
+                                      <li class="">
+                                        Turn on random amount of transactions
+                                      </li>
+                                      <li class="checked">
+                                        Use sending delay over 24h
+                                      </li>
+                                      <li class="checked">
+                                        Recommended service fee - over 1.5%
+                                      </li>
+                                    </ul>
+                                    <button
+                                      class="btn btn-secondary btn-block"
+                                      type="button"
+                                      data-v-5784ed69-s=""
+                                      style="margin-top: 10px"
+                                    >
+                                      <i
+                                        class="fa fa-sliders-h"
+                                        data-v-5784ed69-s=""
+                                      ></i>
+                                      Use recommended settings
+                                    </button>
+                                  </div>
+                                  <!---->
+                                </div>
+                              </div>
+                            </div>
+                            <div class="arrow">
+                              <div
+                                class="arr"
+                                style="
+                                  transform: rotate(5deg);
+                                  transform-origin: center bottom;
+                                "
+                              ></div>
+                              <div class="arr-center"></div>
+                            </div>
+                            <svg
+                              viewBox="0 0 200 100"
+                              height="100%"
+                              width="100%"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <defs>
+                                <filter id="innershadow-id">
+                                  <feFlood flood-color="#c7c6c6"></feFlood>
+                                  <feComposite
+                                    in2="SourceAlpha"
+                                    operator="out"
+                                  ></feComposite>
+                                  <feGaussianBlur
+                                    stdDeviation="2"
+                                    result="blur"
+                                  ></feGaussianBlur>
+                                  <feComposite
+                                    operator="atop"
+                                    in2="SourceGraphic"
+                                  ></feComposite>
+                                </filter>
+                                <!---->
+                                <mask id="innerCircle-id">
+                                  <circle
+                                    r="99.5"
+                                    cx="100"
+                                    cy="100"
+                                    fill="white"
+                                  ></circle>
+                                  <circle
+                                    r="60"
+                                    cx="100"
+                                    cy="100"
+                                    fill="black"
+                                  ></circle>
+                                  <path
+                                    d="M 42.96232384598384 15.43816759938575 A 102 102 0 0 0 37.20252951678285 19.62290313211436 L 100 100"
+                                    fill="black"
+                                  ></path>
+                                  <path
+                                    d="M 134.8860546192182 4.151352679837345 A 102 102 0 0 0 128.1150102933339 1.9513070142914728 L 100 100"
+                                    fill="black"
+                                  ></path>
+                                  <path
+                                    d="M 198.04869298570853 71.88498970666609 A 102 102 0 0 0 195.84864732016266 65.11394538078179 L 100 100"
+                                    fill="black"
+                                  ></path>
+                                </mask>
+                              </defs>
+                              <g mask="url(#innerCircle-id)">
+                                <path
+                                  d="M 200 100 A 100 100 0 0 0 0 99.99999999999999 L 100 100"
+                                  fill="#fba700"
+                                ></path>
+                                <path
+                                  d="M 200 100 A 100 100 0 0 0 109.41083133185143 0.4438035396919986 L 100 100"
+                                  fill="#DDDDDD"
+                                  filter="url(#innershadow-id)"
+                                ></path>
+                              </g>
+                              <line
+                                x1="44"
+                                y1="100"
+                                x2="48"
+                                y2="100"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="44.68945292667229"
+                                y1="91.23966995774707"
+                                x2="48.64020628905284"
+                                y2="91.865407817908"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="46.7408350874714"
+                                y1="82.69504831500294"
+                                x2="50.54506115265202"
+                                y2="83.93111629250274"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="50.10363464545141"
+                                y1="74.57653201458538"
+                                x2="53.66766074220487"
+                                y2="76.39249401354357"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="54.69504831500295"
+                                y1="67.08402587162149"
+                                x2="57.931116292502736"
+                                y2="69.4351668807914"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="60.402020253553346"
+                                y1="60.40202025355334"
+                                x2="63.23044737829953"
+                                y2="63.23044737829952"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="67.08402587162152"
+                                y1="54.69504831500294"
+                                x2="69.4351668807914"
+                                y2="57.931116292502736"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="74.57653201458538"
+                                y1="50.1036346454514"
+                                x2="76.39249401354357"
+                                y2="53.667660742204866"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="82.69504831500295"
+                                y1="46.740835087471396"
+                                x2="83.93111629250274"
+                                y2="50.54506115265201"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="91.23966995774705"
+                                y1="44.68945292667229"
+                                x2="91.865407817908"
+                                y2="48.64020628905284"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="100"
+                                y1="44"
+                                x2="100"
+                                y2="48"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="108.76033004225293"
+                                y1="44.68945292667229"
+                                x2="108.134592182092"
+                                y2="48.640206289052834"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="117.30495168499706"
+                                y1="46.7408350874714"
+                                x2="116.06888370749726"
+                                y2="50.54506115265202"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="125.42346798541462"
+                                y1="50.10363464545141"
+                                x2="123.60750598645643"
+                                y2="53.66766074220487"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="132.91597412837848"
+                                y1="54.69504831500294"
+                                x2="130.5648331192086"
+                                y2="57.931116292502736"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="139.59797974644667"
+                                y1="60.402020253553346"
+                                x2="136.76955262170048"
+                                y2="63.23044737829953"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="145.30495168499706"
+                                y1="67.0840258716215"
+                                x2="142.06888370749726"
+                                y2="69.4351668807914"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="149.8963653545486"
+                                y1="74.57653201458538"
+                                x2="146.33233925779513"
+                                y2="76.39249401354357"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="153.2591649125286"
+                                y1="82.69504831500295"
+                                x2="149.454938847348"
+                                y2="83.93111629250274"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="155.3105470733277"
+                                y1="91.23966995774707"
+                                x2="151.35979371094717"
+                                y2="91.865407817908"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <line
+                                x1="156"
+                                y1="100"
+                                x2="152"
+                                y2="100"
+                                stroke-width="1"
+                                stroke="#DDDDDD"
+                              ></line>
+                              <foreignObject
+                                x="0"
+                                y="0"
+                                width="100%"
+                                height="100"
+                              ></foreignObject>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-48f4208c="">
+                    <div class="row" data-v-48f4208c="">
+                      <div class="col-12" data-v-48f4208c="">
+                        <label class="form-label" data-v-48f4208c=""
+                          >Receiving bitcoin address</label
+                        >
+                      </div>
+                    </div>
+                    <div class="list" data-v-48f4208c="">
+                      <div class="row mb-2" data-v-48f4208c="" style="">
+                        <div class="col-12" data-v-48f4208c="">
+                          <div class="address-group" data-v-48f4208c="">
+                            <div
+                              class="description"
+                              style="background-color: rgb(34, 211, 238)"
+                            >
+                              100.0%
+                            </div>
+                            <div class="input-group">
+                              <input
+                                type="text"
+                                class="form-control"
+                                id="input-0"
+                                placeholder="BTC wallet address №1"
+                                required=""
+                              /><span
+                                ><i class="fa fa-clock"></i> 71 h. 23 m.</span
+                              >
+                            </div>
+                            <!---->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mb-2" data-v-48f4208c="">
+                      <div class="col-12" data-v-48f4208c="">
+                        <button
+                          type="button"
+                          class="btn btn-outline-primary btn-block"
+                          data-v-48f4208c=""
+                        >
+                          <i class="fa fa-plus" data-v-48f4208c=""></i> Add
+                          Address
+                        </button>
+                      </div>
+                    </div>
+                    <!---->
+                  </div>
+                  <!---->
+                  <div class="row">
+                    <div class="col-md-7 col-12">
+                      <div class="row mb-2">
+                        <div class="col-12">
+                          <label class="form-label mb-3">Transfer delay</label>
+                          <div
+                            class="vue-slider vue-slider-ltr"
+                            style="padding: 7px 0px; width: auto; height: 4px"
+                          >
+                            <div class="vue-slider-rail">
+                              <!---->
+                              <div
+                                class="vue-slider-dot vue-slider-dot-hover"
+                                aria-valuetext="2 d. 23 h. 23 m"
+                                role="slider"
+                                aria-valuenow="4283"
+                                aria-valuemin="0"
+                                aria-valuemax="4320"
+                                aria-orientation="horizontal"
+                                tabindex="0"
+                                style="
+                                  width: 14px;
+                                  height: 14px;
+                                  transform: translate(-50%, -50%);
+                                  top: 50%;
+                                  left: 99.1435%;
+                                  transition: left 0.5s ease 0s;
+                                "
+                              >
+                                <div
+                                  class="vue-slider-dot-handle"
+                                  style="background-color: rgb(34, 211, 238)"
+                                ></div>
+                                <div
+                                  class="vue-slider-dot-tooltip vue-slider-dot-tooltip-top"
+                                >
+                                  <div
+                                    class="vue-slider-dot-tooltip-inner vue-slider-dot-tooltip-inner-top"
+                                  >
+                                    <span class="vue-slider-dot-tooltip-text"
+                                      >2 d. 23 h. 23 m</span
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-5 col-12">
+                      <div class="row mb-2">
+                        <div class="col-12">
+                          <label class="form-label mb-3"
+                            >Service fee: <strong>2.556%</strong></label
+                          >
+                          <div
+                            class="vue-slider vue-slider-ltr"
+                            style="padding: 7px 0px; width: auto; height: 4px"
+                          >
+                            <div class="vue-slider-rail">
+                              <div
+                                class="vue-slider-process"
+                                style="
+                                  height: 100%;
+                                  top: 0px;
+                                  left: 0%;
+                                  width: 43.1628%;
+                                  transition-property: width, left;
+                                  transition-duration: 0.5s;
+                                "
+                              ></div>
+                              <!---->
+                              <div
+                                class="vue-slider-dot vue-slider-dot-hover"
+                                aria-valuetext="2.556%"
+                                role="slider"
+                                aria-valuemin="0.7"
+                                aria-valuemax="5"
+                                aria-orientation="horizontal"
+                                tabindex="0"
+                                aria-valuenow="2.556"
+                                style="
+                                  width: 14px;
+                                  height: 14px;
+                                  transform: translate(-50%, -50%);
+                                  top: 50%;
+                                  left: 43.1628%;
+                                  transition: left 0.5s ease 0s;
+                                "
+                              >
+                                <div class="vue-slider-dot-handle"></div>
+                                <div
+                                  class="vue-slider-dot-tooltip vue-slider-dot-tooltip-top"
+                                >
+                                  <div
+                                    class="vue-slider-dot-tooltip-inner vue-slider-dot-tooltip-inner-top"
+                                  >
+                                    <span class="vue-slider-dot-tooltip-text"
+                                      >2.556%</span
+                                    >
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-4">
+                    <div class="col-12">
+                      <div>
+                        <div class="form-check form-switch">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="multitransaction"
+                          /><label
+                            class="form-check-label"
+                            for="multitransaction"
+                            >Random amount of transactions
+                            <div
+                              class="inline-block"
+                              data-v-5784ed69=""
+                              style="
+                                border: 12px solid transparent;
+                                margin: -12px;
+                                --c81fc0a4: 9999;
+                              "
+                            >
+                              <div data-v-5784ed69="">
+                                <button
+                                  type="button"
+                                  class="helper"
+                                  data-v-5784ed69-s=""
+                                >
+                                  <i
+                                    class="fa fa-question-circle"
+                                    data-v-5784ed69-s=""
+                                  ></i>
+                                </button>
+                              </div>
+                              <div
+                                class="popper"
+                                data-v-5784ed69=""
+                                style="display: none"
+                              >
+                                We're going to send random amount of
+                                transactions, minimal service fee if you're
+                                using this option is 1.7% and per output address
+                                fee will be doubled. It increases anonymity
+                                level a lot.<!---->
+                              </div>
+                            </div></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mb-2">
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="terms"
+                          value=""
+                        /><label class="form-check-label" for="terms"
+                          ><div>
+                            I accept
+                            <a href="/pages/terms" target="_blank"
+                              >terms and conditions</a
+                            >.
+                          </div></label
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <button type="submit" class="btn btn-primary btn-block">
+                        <span>Create order</span>
+                      </button>
+                    </div>
+                    <div class="col-6"><div class="text-lg-end"></div></div>
+                  </div>
+                  <div>
+                    <div
+                      class="vfm vfm--inset vfm--fixed"
+                      data-v-2836fdb5=""
+                      data-v-2a57042f=""
+                      style="z-index: 1500; display: none; --19104ee7: 600px"
+                    >
+                      <!--v-if-->
+                      <div
+                        class="vfm__container vfm--absolute vfm--inset vfm--outline-none modal-container"
+                        aria-expanded="false"
+                        role="dialog"
+                        aria-modal="true"
+                        tabindex="-1"
+                        data-v-2836fdb5=""
+                        style="display: none"
+                      >
+                        <div
+                          class="vfm__content modal-content modal-letter"
+                          data-v-2836fdb5=""
+                        >
+                          <div data-v-2a57042f="" data-v-2836fdb5-s="">
+                            <div
+                              class="row modal-header"
+                              data-v-2a57042f=""
+                              data-v-2836fdb5-s=""
+                            >
+                              <div
+                                class="col-9"
+                                data-v-2a57042f=""
+                                data-v-2836fdb5-s=""
+                              >
+                                <span
+                                  class="modal-title"
+                                  data-v-2a57042f=""
+                                  data-v-2836fdb5-s=""
+                                  >Captcha</span
+                                >
+                              </div>
+                              <div
+                                class="col-3 text-end"
+                                data-v-2a57042f=""
+                                data-v-2836fdb5-s=""
+                              >
+                                <a
+                                  href="#"
+                                  class="btn inner-icon-button"
+                                  data-v-2a57042f=""
+                                  data-v-2836fdb5-s=""
+                                  ><i
+                                    class="fa fa-window-close"
+                                    data-v-2a57042f=""
+                                    data-v-2836fdb5-s=""
+                                  ></i
+                                ></a>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="content-holder"
+                            data-v-2a57042f=""
+                            data-v-2836fdb5-s=""
+                          >
+                            <!---->
+                            <div
+                              class="row"
+                              data-v-2836fdb5-s=""
+                              data-v-2a57042f-s=""
+                            >
+                              <div
+                                class="col-12"
+                                data-v-2836fdb5-s=""
+                                data-v-2a57042f-s=""
+                              >
+                                <label
+                                  for="captcha"
+                                  class="form-label"
+                                  data-v-2836fdb5-s=""
+                                  data-v-2a57042f-s=""
+                                  >Solve image</label
+                                >
+                                <div
+                                  class="input-captcha"
+                                  data-v-2836fdb5-s=""
+                                  data-v-2a57042f-s=""
+                                >
+                                  <input
+                                    class="form-control"
+                                    id="captcha"
+                                    data-v-2836fdb5-s=""
+                                    data-v-2a57042f-s=""
+                                  />
+                                  <div
+                                    data-v-2836fdb5-s=""
+                                    data-v-2a57042f-s=""
+                                    style="min-width: 128px"
+                                  >
+                                    <div
+                                      data-v-0b0e94d9=""
+                                      data-v-2836fdb5-s=""
+                                      data-v-2a57042f-s=""
+                                    >
+                                      <div
+                                        class="captcha-holder"
+                                        data-v-0b0e94d9=""
+                                      >
+                                        <img
+                                          class="captcha"
+                                          src="data:image/png;base64,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"
+                                          alt="Solve image"
+                                          data-v-0b0e94d9=""
+                                        />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="buttons"
+                            data-v-2a57042f=""
+                            data-v-2836fdb5-s=""
+                          >
+                            <div
+                              data-v-2836fdb5-s=""
+                              data-v-2a57042f-s=""
+                              style="width: 100%"
+                            >
+                              <div
+                                class="row"
+                                data-v-2836fdb5-s=""
+                                data-v-2a57042f-s=""
+                              >
+                                <div
+                                  class="col-12 col-md-6 offset-md-3"
+                                  data-v-2836fdb5-s=""
+                                  data-v-2a57042f-s=""
+                                >
+                                  <button
+                                    type="submit"
+                                    class="btn btn-primary btn-block"
+                                    data-v-2836fdb5-s=""
+                                    data-v-2a57042f-s=""
+                                  >
+                                    <span>Create order</span>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--v-if-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- /////////////////////////// -->
         </div>
         <div class="left-shape"></div>
         <div class="right-shape"></div>
