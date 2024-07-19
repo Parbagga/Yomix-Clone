@@ -7370,7 +7370,7 @@ progress {
   margin-top: -1rem;
 }
 .blockquote-footer:before {
-  content: "â€”Â ";
+  content: "— ";
 }
 .img-fluid,
 .img-thumbnail {
